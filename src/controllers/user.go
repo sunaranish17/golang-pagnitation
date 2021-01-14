@@ -1,12 +1,13 @@
 package controllers
 
 import (
-	"golang-pagination/src/models"
+	models "golang-pagination/src/models"
 	"golang-pagination/src/repo"
-	"golang-pagination/src/utils"
+	utils "golang-pagination/src/utils"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func GetAllUsers(c *gin.Context) {

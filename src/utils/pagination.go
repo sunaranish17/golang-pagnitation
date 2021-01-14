@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"golang-pagination/src/models"
+	models "golang-pagination/src/models"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

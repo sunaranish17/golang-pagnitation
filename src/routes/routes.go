@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"golang-pagination/src/controllers"
+	controllers "golang-pagination/src/controllers"
 
 	"github.com/gin-gonic/gin"
 )
