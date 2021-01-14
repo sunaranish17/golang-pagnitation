@@ -2,7 +2,7 @@ package repo
 
 import (
 	"golang-pagination/src/config"
-	"golang-pagination/src/models"
+	models "golang-pagination/src/models"
 )
 
 func GetAllUsers(user *models.User, pagination *models.Pagination) (*[]models.User, error) {
