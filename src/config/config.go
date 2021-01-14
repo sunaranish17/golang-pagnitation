@@ -23,7 +23,7 @@ func BuildDBConfig() *DBConfig {
 		Port:     3306,
 		User:     "root",
 		Password: "admin123",
-		DBName:   "golang-pagination",
+		DBName:   "golang_pagination",
 	}
 	return &dbConfig
 }
