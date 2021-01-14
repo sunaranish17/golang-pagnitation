@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func SetupRoutes() *gin.Engine {
+func SetupRouter() *gin.Engine {
 	r := gin.Default()
 
 	u1 := r.Group("/admin")
