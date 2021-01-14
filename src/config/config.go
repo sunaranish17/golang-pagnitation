@@ -11,7 +11,7 @@ var DB *gorm.DB
 //DBConfig represents db configuration
 type DBConfig struct {
 	Host     string
-	Port     string
+	Port     int
 	User     string
 	DBName   string
 	Password string
@@ -20,7 +20,7 @@ type DBConfig struct {
 func BuildDBConfig() *DBConfig {
 	dbConfig := DBConfig{
 		Host:     "localhost",
-		Port:     "3306",
+		Port:     3306,
 		User:     "root",
 		Password: "admin123",
 		DBName:   "golang-pagination",
